@@ -1,0 +1,25 @@
+" basic stuff
+set hlsearch
+set scrolloff=999
+set ignorecase smartcase
+set showmode
+
+
+
+
+" set <leader> to <space>let mapleader = " "
+let mapleader = " "
+
+" edit ideavim config
+" nnoremap <leader>vv :e ~/.ideavimrc<CR>
+" nnoremap <leader>vr :source ~/.ideavimrc<CR>
+
+" nmap <leader>p :action GotoFile<CR>
+
+" split
+:map <leader>v <Action>(SplitVertically)
+
+" nmap works in normal mode
+nmap <leader>w :action ReformatCode<CR>:w<CR>
+nmap <leader>q :q<CR>
+nmap <leader>p :action GotoFile<CR>
